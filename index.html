@@ -18,13 +18,13 @@
 
     main {
       width: 100%;
-      max-width: 800px;
+      max-width: 900px;
       padding: 4rem 1.5rem;
       text-align: center;
     }
 
     h1 {
-      font-size: 2.7rem;
+      font-size: 2.8rem;
       margin-bottom: 0.6rem;
     }
 
@@ -43,6 +43,25 @@
     section h2 {
       font-size: 2rem;
       margin-bottom: 2.2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 14px;
+      object-fit: cover;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
 
     .card {
@@ -81,59 +100,38 @@
       Graphic designer creating logos, social media designs, and clean visuals for brands and businesses.
     </p>
 
-    <!-- GRAPHIC DESIGN (MAIN MONEY SECTION) -->
+    <!-- GRAPHIC DESIGN -->
     <section>
       <h2>Graphic Design</h2>
 
-      <div class="card">
-        <h3>Logo Design</h3>
-        <p>
-          Modern and clean logo designs focused on brand identity, clarity, and visual impact.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Social Media Designs</h3>
-        <p>
-          Instagram posts, stories, and promotional graphics designed to increase engagement.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Flyers & Posters</h3>
-        <p>
-          Eye-catching flyers and posters for events, businesses, and online promotions.
-        </p>
+      <div class="gallery">
+        <img src="IM (1).png" alt="Graphic design work">
+        <img src="S (2).png" alt="Graphic design work">
+        <img src="Untitled design (4).png" alt="Graphic design work">
+        <img src="WE BUILD YOUR DREAMS..png" alt="Graphic design work">
       </div>
     </section>
 
-    <!-- OTHER PROJECTS (SECONDARY) -->
+    <!-- OTHER PROJECTS -->
     <section>
       <h2>Other Projects</h2>
 
       <div class="card">
         <h3>AI Essay Generator</h3>
-        <p>
-          AI-powered essay generator with token-based access and payment integration.
-        </p>
+        <p>AI-powered essay generator with token-based access and payment integration.</p>
       </div>
 
       <div class="card">
         <h3>Book Summarization Service</h3>
-        <p>
-          Web-based service that summarizes books using AI.
-        </p>
+        <p>Web-based service that summarizes books using AI.</p>
       </div>
 
       <div class="card">
         <h3>3D Game Project (Godot)</h3>
-        <p>
-          First-person 3D game focused on movement systems and gameplay mechanics.
-        </p>
+        <p>First-person 3D game focused on movement systems and gameplay mechanics.</p>
       </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
       Available for freelance graphic design work.
     </footer>
