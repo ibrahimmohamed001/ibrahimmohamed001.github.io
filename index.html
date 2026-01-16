@@ -2,91 +2,141 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ibrahim Mohamed | Portfolio</title>
+  <title>Ibrahim Mohamed | Graphic Designer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-   body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(180deg, #0f172a, #020617);
-  color: #e5e7eb;
-  display: flex;
-  justify-content: center;
-}
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0f172a, #020617);
+      color: #e5e7eb;
+      display: flex;
+      justify-content: center;
+    }
 
-main {
-  width: 100%;
-  max-width: 700px;
-  padding: 4rem 1.5rem;
-  text-align: center;
-}
+    main {
+      width: 100%;
+      max-width: 800px;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
 
-h1 {
-  font-size: 2.6rem;
-  margin-bottom: 0.6rem;
-}
+    h1 {
+      font-size: 2.7rem;
+      margin-bottom: 0.6rem;
+    }
 
-p {
-  font-size: 1.1rem;
-  max-width: 480px;
-  margin: 0 auto;
-  line-height: 1.6;
-  color: #cbd5f5;
-}
+    .hero-text {
+      font-size: 1.15rem;
+      max-width: 520px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #cbd5f5;
+    }
 
-.projects {
-  margin-top: 4rem;
-}
+    section {
+      margin-top: 4.5rem;
+    }
 
-.projects h2 {
-  font-size: 1.9rem;
-  margin-bottom: 2rem;
-}
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 2.2rem;
+    }
 
-.project {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 1.4rem;
-  border-radius: 14px;
-  margin-bottom: 1.2rem;
-  text-align: left;
-}
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
+      border-radius: 14px;
+      margin-bottom: 1.3rem;
+      text-align: left;
+    }
 
-.project h3 {
-  margin-top: 0;
-  margin-bottom: 0.4rem;
-}
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+      font-size: 1.25rem;
+    }
 
-.project p {
-  margin: 0;
-  color: #dbeafe;
-}
+    .card p {
+      margin: 0;
+      color: #dbeafe;
+      line-height: 1.5;
+    }
 
+    footer {
+      margin-top: 5rem;
+      font-size: 0.95rem;
+      color: #94a3b8;
+    }
   </style>
 </head>
+
 <body>
   <main>
+    <!-- HERO -->
     <h1>Ibrahim Mohamed</h1>
-    <p>Student developer focused on AI tools, web development, and game projects.</p>
-    <section class="projects">
-  <h2>Projects</h2>
+    <p class="hero-text">
+      Graphic designer creating logos, social media designs, and clean visuals for brands and businesses.
+    </p>
 
-  <div class="project">
-    <h3>AI Essay Generator</h3>
-    <p>Built an AI-powered essay generator with token-based access and payment integration.</p>
-  </div>
+    <!-- GRAPHIC DESIGN (MAIN MONEY SECTION) -->
+    <section>
+      <h2>Graphic Design</h2>
 
-  <div class="project">
-    <h3>Book Summarization Service</h3>
-    <p>A service that summarizes books using AI, built as a practical web-based project.</p>
-  </div>
+      <div class="card">
+        <h3>Logo Design</h3>
+        <p>
+          Modern and clean logo designs focused on brand identity, clarity, and visual impact.
+        </p>
+      </div>
 
-  <div class="project">
-    <h3>3D Game Project (Godot)</h3>
-    <p>First-person 3D game built in Godot, focusing on movement systems and gameplay mechanics.</p>
-  </div>
-</section>
+      <div class="card">
+        <h3>Social Media Designs</h3>
+        <p>
+          Instagram posts, stories, and promotional graphics designed to increase engagement.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Flyers & Posters</h3>
+        <p>
+          Eye-catching flyers and posters for events, businesses, and online promotions.
+        </p>
+      </div>
+    </section>
+
+    <!-- OTHER PROJECTS (SECONDARY) -->
+    <section>
+      <h2>Other Projects</h2>
+
+      <div class="card">
+        <h3>AI Essay Generator</h3>
+        <p>
+          AI-powered essay generator with token-based access and payment integration.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Book Summarization Service</h3>
+        <p>
+          Web-based service that summarizes books using AI.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>3D Game Project (Godot)</h3>
+        <p>
+          First-person 3D game focused on movement systems and gameplay mechanics.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      Available for freelance graphic design work.
+    </footer>
   </main>
 </body>
 </html>
