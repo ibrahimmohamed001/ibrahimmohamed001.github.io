@@ -61,6 +61,15 @@
       transform: translateY(-2px);
     }
 
+    .links a.primary {
+      background: #22c55e;
+      color: #020617;
+    }
+
+    .links a.primary:hover {
+      background: #16a34a;
+    }
+
     section {
       margin-top: 4.5rem;
     }
@@ -76,6 +85,10 @@
       gap: 1.2rem;
     }
 
+    figure {
+      margin: 0;
+    }
+
     .gallery img {
       width: 100%;
       border-radius: 14px;
@@ -88,24 +101,11 @@
       box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
 
-    .card {
-      background: rgba(255, 255, 255, 0.05);
-      padding: 1.5rem;
-      border-radius: 14px;
-      margin-bottom: 1.3rem;
-      text-align: left;
-    }
-
-    .card h3 {
-      margin-top: 0;
-      margin-bottom: 0.4rem;
-      font-size: 1.25rem;
-    }
-
-    .card p {
-      margin: 0;
-      color: #dbeafe;
-      line-height: 1.5;
+    figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      text-align: center;
     }
 
     footer {
@@ -113,15 +113,6 @@
       font-size: 0.95rem;
       color: #94a3b8;
     }
-    .links a.primary {
-  background: #22c55e;
-  color: #020617;
-}
-
-.links a.primary:hover {
-  background: #16a34a;
-}
-
   </style>
 </head>
 
@@ -130,14 +121,17 @@
     <!-- HERO -->
     <h1>Ibrahim Mohamed</h1>
     <p class="hero-text">
-      Graphic designer creating logos, social media designs, and clean visuals for brands and businesses.
+      Graphic designer creating clean and professional print designs for businesses and brands.
     </p>
 
     <!-- CONTACT -->
     <div class="links">
       <a href="https://outlook.live.com/mail/0/deeplink/compose?to=beboo2852009@hotmail.com" target="_blank">
-  Email Me</a>
-      <a href="https://www.fiverr.com/s/qDYgQ8y" target="_blank" class="primary">Hire Me on Fiverr</a>
+        Email Me
+      </a>
+      <a href="https://www.fiverr.com/s/qDYgQ8y" target="_blank" class="primary">
+        Hire Me on Fiverr
+      </a>
     </div>
 
     <!-- GRAPHIC DESIGN -->
@@ -145,31 +139,35 @@
       <h2>Graphic Design</h2>
 
       <div class="gallery">
-        <img src="IM (1).png" alt="Graphic design work">
-        <img src="S (2).png" alt="Graphic design work">
-        <img src="Untitled design (4).png" alt="Graphic design work">
-        <img src="WE BUILD YOUR DREAMS..png" alt="Graphic design work">
-      </div>
-    </section>
+        <figure>
+          <img src="business-card-1.png" alt="Business card design">
+          <figcaption>Business Card Design</figcaption>
+        </figure>
 
-    <!-- OTHER PROJECTS -->
-    <section>
-      <h2>Other Projects</h2>
+        <figure>
+          <img src="business-card-2.png" alt="Business card design">
+          <figcaption>Business Card Design</figcaption>
+        </figure>
 
-      <div class="card">
-        <h3>AI Essay Generator</h3>
-        <p>AI-powered essay generator with token-based access and payment integration.</p>
+        <figure>
+          <img src="flyer-design.png" alt="Flyer design">
+          <figcaption>Flyer Design</figcaption>
+        </figure>
+
+        <figure>
+          <img src="wall-hanger.png" alt="Wall hanger design">
+          <figcaption>Wall Hanger Design</figcaption>
+        </figure>
       </div>
 
-      <div class="card">
-        <h3>Book Summarization Service</h3>
-        <p>Web-based service that summarizes books using AI.</p>
-      </div>
+      <p class="hero-text">
+        All designs are original and created to clearly communicate each business’s message.
+      </p>
 
-      <div class="card">
-        <h3>3D Game Project (Godot)</h3>
-        <p>First-person 3D game focused on movement systems and gameplay mechanics.</p>
-      </div>
+      <!-- EXTRA LINE -->
+      <p class="hero-text">
+        Custom designs and special requests are available upon discussion.
+      </p>
     </section>
 
     <footer>
