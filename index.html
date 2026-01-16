@@ -36,6 +36,31 @@
       color: #cbd5f5;
     }
 
+    /* CONTACT LINKS */
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .links a {
+      text-decoration: none;
+      padding: 0.85rem 1.6rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      font-weight: bold;
+      background: rgba(255,255,255,0.08);
+      color: #e5e7eb;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .links a:hover {
+      background: rgba(255,255,255,0.18);
+      transform: translateY(-2px);
+    }
+
     section {
       margin-top: 4.5rem;
     }
@@ -56,7 +81,6 @@
       border-radius: 14px;
       object-fit: cover;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      cursor: pointer;
     }
 
     .gallery img:hover {
@@ -99,6 +123,12 @@
     <p class="hero-text">
       Graphic designer creating logos, social media designs, and clean visuals for brands and businesses.
     </p>
+
+    <!-- CONTACT -->
+    <div class="links">
+      <a href="mailto:beboo2852009@hotmaail.com">Email Me</a>
+      <a href="https://www.fiverr.com/gDL147E" target="_blank">Hire Me on Fiverr</a>
+    </div>
 
     <!-- GRAPHIC DESIGN -->
     <section>
